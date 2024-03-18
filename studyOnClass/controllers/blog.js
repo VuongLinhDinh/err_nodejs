@@ -1,4 +1,4 @@
-import Blog from "../models/blog_model";
+import Blog from "../models/blog_model.js";
 // function
 class BlogController {
   // GET /Blogs

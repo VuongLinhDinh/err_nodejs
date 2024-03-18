@@ -1,10 +1,11 @@
+import Product from "../models/product_model.js";
 // function
-// import Product from "../models/Product_model.js";
 class ProductsController {
   // GET /products
   async getAllProducts(req, res) {
     // const products = await Product.find({});
-    res.json(products);
+    // res.json(products);
+    res.send("Get product");
   }
   // GET /products/:id
   getProductDetail(req, res) {

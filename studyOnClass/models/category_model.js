@@ -13,6 +13,6 @@ const CategorySchema = new Schema(
   { timestamps: true, versionKey: false }
 );
 
-const Category = mongoose.model("Book", CategorySchema);
+const Category = mongoose.model("Category", CategorySchema);
 
 export default Category;

@@ -1,4 +1,4 @@
-import Category from "../models/category_model";
+import Category from "../models/category_model.js";
 // function
 class CategorisController {
   // GET /Categoris
